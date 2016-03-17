@@ -17,8 +17,8 @@ Anyone out there looking for code developed in pure Javascript and not willing t
 
 #### import both minified files.
 ```html
-<link href="/path/to/directory/notetiles.min.css" rel="stylesheet"/>
-<script src="/path/to/directory/notetiles.min.js" language="javascript"> </script>
+<link href="/path/to/dist/notetiles.min.css" rel="stylesheet"/>
+<script src="/path/to/dist/notetiles.min.js" language="javascript"> </script>
 ```
 
 ### In html page write as below.
