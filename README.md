@@ -43,4 +43,4 @@ window.onload = function(){ // your code here }
 
 ### Screenshot
 
-![alt tag] (http://)
+![alt tag] (https://raw.githubusercontent.com/kakurala/notetile/master/image.png)
