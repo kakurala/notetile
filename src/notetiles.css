@@ -1,0 +1,86 @@
+.notetile{
+	position:fixed;
+	z-index:9999;
+}
+
+.notetile-bottom-left {
+	bottom: 30px;
+	left:30px;
+}
+.notetile-top-right {
+	top: 30px;
+	right:30px;
+}
+
+.notetile-bottom-right {
+	bottom: 30px;
+	right:30px;
+}
+
+.notetile-top-left {
+	top: 30px;
+	left:30px;
+}
+
+
+.notetile-model{
+	padding:5px 10px 5px 10px;
+	box-shadow: 1px 1px 3px #aaa;
+	cursor:pointer;
+	padding: 10px 14px;
+	position:relative !important;
+	opacity:0.8;
+	border:1px solid #eee;
+	border-radius: 6px;
+	max-width:250px;
+	min-width:250px;
+	z-index:1000;
+	color: #F5F5F5;
+	font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+	font-size: 14px;
+	text-shadow: rgba(255, 255, 255, 0.2) 3px 2px 3px;
+	margin-bottom : 5px;
+}
+
+.notetile-model:hover{
+ opacity: 0.7;
+}
+.notetile-success{
+	background-color: #4CAF50;
+}
+
+.notetile-warning{
+	background-color: #FF9800;
+}
+
+.notetile-error{
+	background-color: #F44336;
+}
+.notetile-info{
+	background-color: #00BCD4;
+}
+
+.notetile-close{
+	position: relative;
+	float:right;
+	height: 14px;
+	width:14px;
+	cursor:pointer;
+	border-radius: 14px;
+	border: 1px solid #eee;
+	text-align: center;
+	line-height: 11px;
+}
+
+.notetile-close:hover{
+ background: #fff;
+ color: #00BCD4;
+ }
+
+.notetile-default{
+ background-color: #000;
+}
+
+.notetile-content{
+	 
+}
