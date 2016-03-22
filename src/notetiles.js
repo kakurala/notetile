@@ -1,18 +1,14 @@
 (function () {
 	
 Notetile.prototype.setWrapper =  function(config){ 
-	/* var wrapper = window.document.querySelectorAll(".notetile");
-	 if(wrapper.length > 0 && !this.wrapperExists){
-	//	console.log("Wrapper div exists, Hence no need to create one!!");	
-		 this.wrapperExists = true;
-		 this.wrapperNode = wrapper;
-		}
-	 else{ */
+ 
 	 //	console.log("Wrapper div not exists, Hence creating one!!");
 	 var wrpEle = null;
 	 var wrapper = null
 	 if(config !=null && config.position != null){
-			  wrapper = window.document.querySelectorAll(".notetile-"+config.position);
+			 		
+				wrapper = window.document.querySelectorAll(".notetile-"+config.position);
+
 		if(wrapper.length > 0 && !this.wrapperExists){
 			return wrapper;
 		}else{
@@ -43,9 +39,12 @@ Notetile.prototype.createPopup = function(config){
 				var span=document.createElement("span");
 				span.className="notetile-content";
 				if(config.close != null && config.close){
-					var close_ico=document.createElement("span");
+				var close_ico=document.createElement("a");
 					close_ico.className="notetile-close";
-					close_ico.innerHTML="&#10799;";
+				 // add event listner to close icon
+					close_ico.addEventListener('click', function(eventObj) {
+					 Notetile.prototype.closeNotetile(this.parentNode);
+					});
 					popup.appendChild(close_ico);
 				}
 				// Create a textNode and then append : it will prevent executing tags in message text!
