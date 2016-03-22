@@ -15,13 +15,13 @@ Anyone out there looking for code developed in pure Javascript and not willing t
 
 ## Usage
 
-#### import both minified files.
+##### import both minified files.
 ```html
-<link href="/path/to/directory/notetiles.min.css" rel="stylesheet"/>
-<script src="/path/to/directory/notetiles.min.js" language="javascript"> </script>
+<link href="/path/to/dist/notetiles.min.css" rel="stylesheet"/>
+<script src="/path/to/dist/notetiles.min.js" language="javascript"> </script>
 ```
 
-### In html page write as below.
+##### In html page write as below.
 
 ```javascript
 <script>
@@ -43,4 +43,9 @@ window.onload = function(){ // your code here }
 
 ### Screenshot
 
-![alt tag] (http://)
+![alt tag] (https://raw.githubusercontent.com/kakurala/notetile/master/image.png)
+
+#### Next plans
+* More interactive as close alert on click
+* Adding animations
+* Custom HTML content
